@@ -16,7 +16,7 @@ body {
   height: 100vh;
   position: absolute;
   z-index: 100;
-  background: #00000073;
+  background: #00000090;
   pointer-events: none;
 }
 #container {
@@ -33,8 +33,8 @@ body {
 }
 #cursor {
   position: absolute;
-  width: 250px;
-  height: 250px;
+  width: 500px;
+  height: 500px;
   background: #fff;
   transform: translate(-50%, -50%);
   z-index: 1;
@@ -54,10 +54,10 @@ body {
 }
 @keyframes blur {
   0% {
-    filter: blur(120px);
+    filter: blur(150px);
   }
   100% {
-    filter: blur(120px);
+    filter: blur(150px);
   }
 }
 .crop {
