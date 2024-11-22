@@ -23,7 +23,7 @@ body {
   position: absolute;
   display: grid;
   grid-template-columns: repeat(62, 25px);
-  grid-gap: 1.12px;
+  grid-gap: 1px;
 }
 #container span {
   width: 25px;
