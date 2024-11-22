@@ -64,3 +64,14 @@ body {
   width: 100%;
   height: 100%;
 }
+@media (min-width: 375px) {
+  .crop {
+    scale: 1.6;
+    margin-left: -3%;
+  }
+}
+@media (min-width: 1080px) {
+  .crop {
+    scale: 1;
+  }
+}
