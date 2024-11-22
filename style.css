@@ -19,10 +19,6 @@ body {
   background: #00000073;
   pointer-events: none;
 }
-/* .background {
-  transform-origin: bottom;
-  transform: skewX(-60deg) scaleX(4) skewY(48.5deg);
-} */
 #container {
   position: absolute;
   display: grid;
