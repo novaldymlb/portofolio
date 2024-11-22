@@ -11,12 +11,29 @@
     <title>Noval M</title>
   </head>
   <body>
-    <div class="container">
-      <object
-        class="crop"
-        type="image/svg+xml"
-        data="under-construction.svg"
-        alt="under-construction.svg"></object>
+    <div>
+      <div id="svg">
+        <object
+          class="crop"
+          type="image/svg+xml"
+          data="under-construction.svg"
+          alt="under-construction.svg"></object>
+      </div>
+      <div class="background">
+        <div id="container">
+        <div id="cursor"></div></div>
+      </div>
     </div>
+    <script>
+      for (var i = 0; i < 3000; i++) {
+        let box = document.createElement('span');
+        document.getElementById('container').appendChild(box);
+      }
+      let cursor = document.getElementById('cursor');
+      window.onmousemove = function (e) {
+        cursor.style.left = e.clientX + 'px';
+        cursor.style.top = e.clientY + 'px';
+      };
+    </script>
   </body>
 </html>
